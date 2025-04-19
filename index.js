@@ -99,7 +99,18 @@ let ucetambolunenler,
 
 // 3a çözümü
 
-/* kodlar buraya */
+let enBuyuk = 0;
+for(let i = 0; i < sayilar.length;i++) {
+  if(sayilar[i] > enBuyuk) {
+    enBuyuk = sayilar[i];
+  }
+} 
+let enKucuk = 0;
+for(let i=0; i < sayilar.length; i++) {
+  if(sayilar[i] < enKucuk) {
+    enKucuk =sayilar[i];
+  }
+}
 
 // 3b çözümü:
 
